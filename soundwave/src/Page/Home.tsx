@@ -1,7 +1,7 @@
-
 import  girl from "../assets/landing-page-girl.png"
 import { Navbar } from "../components/NavBar"
 import { Button } from 'antd';
+
 
 
 export default function Home() {
@@ -11,7 +11,7 @@ export default function Home() {
        <h1>Feel The Music</h1>
        <p>Stream over 20 thousand songs with one clik</p>
        <img src={ girl }/>
-       <Button type="primary">Join Now</Button>
+     <Button type="primary">Join Now</Button>
         </div>
   )
 }
