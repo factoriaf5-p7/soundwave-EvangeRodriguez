@@ -3,6 +3,7 @@ import { Route, Routes } from 'react-router-dom';
 import Home from './Page/Home';
 import Discover from './Page/Discover';
 import Join from './Page/Join';
+import NotFound from './Page/NotFound'
 
 
 
@@ -13,6 +14,7 @@ function App() {
         <Route path='/' element={<Home />} />
         <Route path='/discover' element={<Discover />} />
         <Route path='/join' element={<Join />} />
+        <Route path='/404:Not Found' element={<NotFound/>} />
      </Routes>
       </div>
      

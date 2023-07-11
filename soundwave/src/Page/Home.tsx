@@ -10,7 +10,7 @@ export default function Home() {
         <Navbar/>
        <h1>Feel The Music</h1>
        <p>Stream over 20 thousand songs with one clik</p>
-       <img src={ girl }></img>
+       <img src={ girl }/>
        <Button type="primary">Join Now</Button>
         </div>
   )
