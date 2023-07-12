@@ -25,5 +25,21 @@
   .container-join h1 span.fun {
     color: fuchsia; 
   }
-
  
+ 
+  @media screen and (max-width: 767px) {
+    .container-join {
+      flex-direction: column;
+      height: auto;
+      padding: 20px;
+    }
+  
+    .content-join {
+      margin-right: 0;
+      margin-bottom: 20px;
+    }
+  
+    .content-forms {
+      margin-left: 0;
+    }
+  }

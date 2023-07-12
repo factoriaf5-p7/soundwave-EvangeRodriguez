@@ -30,3 +30,18 @@
     text-align: center;
   }
   
+
+  @media (max-width: 768px) {
+    .microphone img,
+    .album img,
+    .more img {
+      width: 20px; 
+      height: 20px; 
+    }
+  
+    .microphone p,
+    .album p,
+    .more p {
+      font-size: 0.8rem;
+    }
+  }
