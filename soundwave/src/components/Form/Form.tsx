@@ -1,7 +1,6 @@
-
-import { Button, Form, Input, } from 'antd';
+import { Button, Form, Input } from 'antd';
 import { Link } from 'react-router-dom';
-import './Form.css'
+import './Form.css';
 
 export const Forms = () => {
   return (
@@ -25,4 +24,3 @@ export const Forms = () => {
     </div>
   );
 };
- 

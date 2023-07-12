@@ -6,24 +6,17 @@
     display: flex;
     align-items: center;
     justify-content: space-between;
-    }
-.about-contact{
-    background-color:#202027;
-    color:white; 
-    min-width: 200px;
-    padding: 0 200px;
-}
-
-.redes{
-    background-color:#202027;
-    color:white; 
-    min-width: 200px;
-    padding: 0 200px;
-}
-
-@media (max-width: 768px) {
-    
+  }
   
+  .about-contact,
+  .redes {
+    background-color: #202027;
+    color: white;
+    min-width: 200px;
+    padding: 0 200px;
+  }
+  
+  @media (max-width: 768px) {
     .about-contact,
     .redes {
       min-width: unset;
@@ -31,3 +24,4 @@
       width: 100%;
     }
   }
+  

@@ -6,20 +6,21 @@ import './Home.css';
 
 export default function Home() {
   return (
-   <div>
-      <Navbar/>        
+    <div>
+      <Navbar />
       <div className="container-home">
-         <div className="content-home">
-           <img src={girl} className="girl" alt="Girl" />
-           <div className="text">
-               <h1 className="title">Feel The Music</h1>
-               <p className="subtitle">Stream over 20 thousand songs with one click</p>
-               <Link to='/join' className="button">
-               <Button type="primary">Join Now</Button>
-               </Link>
-            </div>
-         </div>
+        <div className="content-home">
+          <img src={girl} className="girl" alt="Girl" />
+          <div className="text">
+            <h1 className="title">Feel The Music</h1>
+            <p className="subtitle">Stream over 20 thousand songs with one click</p>
+            <Link to='/join' className="button">
+              <Button type="primary">Join Now</Button>
+            </Link>
+          </div>
+        </div>
       </div>
-   </div>
-   );
+    </div>
+  );
 }
+
