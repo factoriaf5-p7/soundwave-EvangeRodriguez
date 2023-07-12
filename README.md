@@ -57,6 +57,6 @@ Gracias por su atención y espero que disfruten de nuestra presentación final e
 
 - **[Repositorio de GitHub.](https://github.com/factoriaf5-p7/soundwave-EvangeRodriguez.git)**📁
 - **[Enlace del despliegue.]()**🔗
-- **[ Presentación Final ](https://www.canva.com/design/DAFocQkn3Vw/IDxSD2qbYOcFFaPzQrT8kw/edit?utm_content=DAFocQkn3Vw&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton)**🎥
+- **[ Presentación Final ](https://www.canva.com/design/DAFocQkn3Vw/i2zeJaBo9hba3EYa0-KkBA/view)**🎥
 
  
