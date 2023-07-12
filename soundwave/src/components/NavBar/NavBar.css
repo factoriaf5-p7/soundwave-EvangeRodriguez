@@ -14,3 +14,15 @@
     min-width: 200px;
     padding: 0 200px;
   }
+
+  @media (max-width: 768px) {
+    .NavBar 
+    .items-menu {
+      display: flex;
+      align-items: flex-start;
+      width: 100%;
+      padding: 0;
+    }
+  
+   
+  }
