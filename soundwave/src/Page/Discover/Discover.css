@@ -1,0 +1,39 @@
+.container-discover {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: auto;
+  }
+  
+  .content-discover {
+    display: flex;
+    align-items: center;
+    margin-top: 20px;
+    height: 80vh;
+  }
+  
+  .text-discover {
+    display: flex;
+    margin: 50px;
+    width: 400px; 
+    flex-direction: column;
+    align-items: flex-start;
+    margin-left: 50px;
+  }
+  
+  .discover {
+   
+    margin-bottom: 20px;
+  }
+  
+  .parrafo {
+  
+    padding-top: 20px;
+   
+  }
+    
+  .imagen {
+    width: 250px; 
+    margin-right: 60px;
+  }
+  

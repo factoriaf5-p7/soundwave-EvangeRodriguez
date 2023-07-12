@@ -1,19 +1,19 @@
-.container {
+.container-home {
     display: flex;
     flex-direction: column;
     align-items: center;
   }
   
-  .content {
+  .content-home {
     display: flex;
     align-items: center;
     margin-top: 100px;
+    height: 85vh;
   }
   
   .girl {
-    width: 300px; 
-    margin-right: 50px; 
-  }
+    height: 85vh;   
+   }
   
   .text {
     display: flex;
