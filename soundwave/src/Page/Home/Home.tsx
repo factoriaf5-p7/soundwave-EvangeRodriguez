@@ -7,7 +7,7 @@ import './Home.css';
 export default function Home() {
   return (
       <div>
-      <Navbar/>
+      <Navbar/>        
       <div className="container-home">
               <div className="content-home">
            <img src={girl} className="girl" alt="Girl" />
