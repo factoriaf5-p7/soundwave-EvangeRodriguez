@@ -1,5 +1,5 @@
 import { Footer } from "../../components/Footer/Footer";
-import Forms from "../../components/Form/Form";
+import { Forms } from "../../components/Form/Form";
 import { Navbar } from "../../components/NavBar/NavBar";
 
 
