@@ -1,7 +1,9 @@
+import './MenuDiscover.css'
 
 export function MenuDiscover() {
     return (
-     <div>
+     <div className='iconos'>
+     
      <div className="microphone">
      <img src="/microphone.svg" alt="microphone" />
       <p>Charts</p>
