@@ -1,35 +1,65 @@
+/* Contenedor */
 .container-home {
-    display: flex;
-    flex-direction: column;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+/* Contenido imagen, titulo, texto y botón */
+.content-home {
+  display: flex;
+  align-items: center;
+  margin-top: 100px;
+  height: 85vh;
+}
+
+.girl {
+  display: flex;
+  height: 85vh;
+}
+
+.text {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+
+.title {
+  margin-bottom: 10px;
+}
+
+.subtitle {
+  margin-bottom: 20px;
+}
+
+.button {
+  display: flex;
+  justify-content: flex-start;
+}
+
+@media (max-width: 768px) {
+  .container-home {
+    margin-left: 200px;
+    margin-top: 200px;
     align-items: center;
   }
-  
-  .content-home {
-    display: flex;
-    align-items: center;
-    margin-top: 100px;
-    height: 85vh;
-  }
-  
+
   .girl {
-    height: 85vh;   
-   }
-  
-  .text {
-    display: flex;
-    flex-direction: column;
-    align-items: flex-start;
+    display: none;
   }
-  
+
   .title {
-    margin-bottom: 10px; 
- }
-  
-  .subtitle {
-     margin-bottom: 20px; 
-     }
-  
-  .button {
-    display: flex;
-    justify-content: flex-start;
+    font-size: 80px;
+    margin-bottom: 1px;
+    padding-right: 250px;
   }
+
+  .subtitle {
+    font-size: 50px;
+    margin-bottom: 1px;
+  }
+
+  .button {
+    padding: 50px 60px;
+  }
+}
