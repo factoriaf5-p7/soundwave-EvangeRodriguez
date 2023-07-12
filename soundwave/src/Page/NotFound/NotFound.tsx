@@ -7,7 +7,7 @@ export default function NotFound() {
   return (
     <div> 
     <Navbar/> 
-    <img src={ Notfound } alt="Not Found" className="NotFound"/>
+    <img src={ Notfound } alt="Not Found" className="not-found"/>
     <Footer/>
     </div>
   )
