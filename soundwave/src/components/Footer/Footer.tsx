@@ -2,12 +2,14 @@ import React, { useState } from 'react';
 import type { MenuProps } from 'antd';
 import { Menu } from 'antd';
 import { Link } from 'react-router-dom';
-import  facebook from "../assets/facebook.png"
+import  facebook from "../../assets/facebook.png";
+import './Footer.css'
 
 const items: MenuProps['items'] = [
   {
     label: (
-      <a href="/404:Not Found" rel="about us">
+      <a href="/404:Not Found" rel="about us" className='about-us'>
+        <div style={{ display: 'flex', alignItems: 'center', marginLeft: '8px'}}></div>
        About Us
       </a>
     ),
@@ -15,7 +17,8 @@ const items: MenuProps['items'] = [
   },
   {
     label: (
-      <a href="/404:Not Found" rel="contact">
+      <a href="/404:Not Found" rel="contact" className='contact'>
+        <div style={{ display: 'flex', alignItems: 'center', marginLeft: '8px'}}></div>
       Contact
       </a>
     ),
@@ -51,5 +54,5 @@ export const Footer: React.FC = () => {
     console.log('click ', e);
     setCurrent(e.key);
   };
-  return <Menu onClick={onClick} selectedKeys={[current]} mode="horizontal" items={items} style={{background:'#2F303A',color:'white', display:'flex', justifyContent:'space-evenly'}} />;
+  return <Menu onClick={onClick} selectedKeys={[current]} mode="horizontal" items={items} style={{background:'#202027',color:'white', display:'flex', justifyContent:'flex-start'}} />;
 };

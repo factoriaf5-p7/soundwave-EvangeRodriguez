@@ -1,5 +1,6 @@
 import React from 'react';
 import { Button, Form, Input, } from 'antd';
+import { Link } from 'react-router-dom';
 
 const Forms: React.FC = () => {
   const [form] = Form.useForm<{ name: string; email:string; password:string }>();
@@ -17,7 +18,9 @@ const Forms: React.FC = () => {
           <Input/>
         </Form.Item>
       </Form>
-      <Button type="primary">Join Now</Button>  
+      <Link to='/404:Not Found'>
+      <Button type="primary">Join Now</Button> 
+      </Link> 
     </>
   );
 };
