@@ -1,12 +1,13 @@
 import { Footer } from "../../components/Footer/Footer";
 import { Navbar } from "../../components/NavBar/NavBar";
-
+import Notfound from "../../assets/not-found.png";
+import './NotFound.css'
 
 export default function NotFound() {
   return (
     <div> 
     <Navbar/> 
-    <h1>NotFound</h1> 
+    <img src={ Notfound } alt="Not Found" className="NotFound"/>
     <Footer/>
     </div>
   )

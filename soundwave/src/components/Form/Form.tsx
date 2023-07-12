@@ -1,13 +1,11 @@
-import React from 'react';
+
 import { Button, Form, Input, } from 'antd';
 import { Link } from 'react-router-dom';
 
-const Forms: React.FC = () => {
-  const [form] = Form.useForm<{ name: string; email:string; password:string }>();
- 
-  return (
+export const Forms = () => {
+    return (
     <>
-      <Form form={form} layout="vertical" autoComplete="off">
+      <Form layout="vertical" autoComplete="off" >
         <Form.Item name="name" label="Name:">
           <Input />
         </Form.Item>
@@ -25,4 +23,3 @@ const Forms: React.FC = () => {
   );
 };
 
-export default Forms;
