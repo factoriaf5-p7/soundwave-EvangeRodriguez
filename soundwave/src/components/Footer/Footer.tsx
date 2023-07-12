@@ -1,31 +1,31 @@
-import React, { useState } from 'react';
-import type { MenuProps } from 'antd';
 import { Menu } from 'antd';
 import { Link } from 'react-router-dom';
 import  facebook from "../../assets/facebook.png";
 import './Footer.css'
 
-const items: MenuProps['items'] = [
-  {
-    label: (
-      <a href="/404:Not Found" rel="about us" className='about-us'>
+export const Footer = () => {
+    return (
+      <div className='footer'>
+      <Menu className='about-contact' mode='horizontal' items={[{
+        label: (
+          <Link to="/404:Not Found" rel="about us" className='about-us'>
+            <div style={{ display: 'flex', alignItems: 'center', marginLeft: '8px'}}></div>
+            About Us
+            </Link>
+        ),
+      key: 'about us',
+    },
+    {
+      label: (
+        <Link to="/404:Not Found" rel="contact" className='contact'>
         <div style={{ display: 'flex', alignItems: 'center', marginLeft: '8px'}}></div>
-       About Us
-      </a>
-    ),
-    key: 'about us',
-  },
-  {
-    label: (
-      <a href="/404:Not Found" rel="contact" className='contact'>
-        <div style={{ display: 'flex', alignItems: 'center', marginLeft: '8px'}}></div>
-      Contact
-      </a>
-    ),
-    key: 'contact',
-  },
-  {
-    label: (
+        Contact
+        </Link>
+        ),
+        key: 'contact',
+      }]
+    }/>
+      <Menu className='redes' mode='horizontal' items={[{label: (
       <Link to="/404:Not Found" className="twitter">
         <div style={{ display: 'flex', alignItems: 'center'}}>
         <img src="/twitter.svg" alt="Twitter" />
@@ -45,14 +45,7 @@ const items: MenuProps['items'] = [
       </Link>
     ),
     key: 'facebook',
-  },
-  
-];
-export const Footer: React.FC = () => {
-  const [current, setCurrent] = useState('');
-  const onClick: MenuProps['onClick'] = (e) => {
-    console.log('click ', e);
-    setCurrent(e.key);
-  };
-  return <Menu onClick={onClick} selectedKeys={[current]} mode="horizontal" items={items} style={{background:'#202027',color:'white', display:'flex', justifyContent:'flex-start'}} />;
-};
+  }]
+}/>
+  </div>
+    )};

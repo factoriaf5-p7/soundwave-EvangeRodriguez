@@ -10,8 +10,15 @@
 :root{
   font-family: 'Poppins', sans-serif;
   color: white;
-  font-size: 1.2rem; 
+  font-size: 1rem; 
   background: #2F303A;
 }
 
 
+h1{
+  font-size:36.8px;
+}
+
+p{
+  font-size: 19.2px;
+}
