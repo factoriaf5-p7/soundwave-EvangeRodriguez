@@ -1,20 +1,34 @@
-# SOUNDWAVE: un proyecto de React con estilo
+# SOUNDWAVE: un proyecto de React con estilo✨
 
-Realizado por Evangelina Rodriguez - Proyecto para Factoria F5 - Promoción 7 - 2023
+Realizado por Evangelina Rodriguez - Proyecto para Factoria F5 - Promoción 7 - 2023 🚀
 
-## Introducción
+## Introducción🎶
 
-SoundWave, se ha posicionado en el mercado como la competencia directa de Spotify. Con una calidad de sonido extraordinaria y la gran variedad de canciones que ofrece está ganando adeptos a pasos agigantados. No obstante, quieren acelerar el proceso de subscripción a su plataforma con una nueva campaña de marketing digital.
+¡Bienvenidos a SoundWave, la competencia directa de Spotify! En un mercado donde la calidad de sonido y la variedad musical son clave, SoundWave se ha ganado a pasos agigantados el corazón de los amantes de la música. 🎵 Sin embargo, queremos acelerar el proceso de suscripción a nuestra plataforma con una emocionante campaña de marketing digital. 💥
 
-## Requerimientos técnicos
+## Requerimientos técnicos 🛠️
 
 - La web deberá estar desarrollada en React con TypeScript.
 - La web deberá ser responsive.
-- Los estilos deberán aplicarse con módulos css, styled components, o algún framework de css.
+- Los estilos deberán aplicarse Ant Design.
 - La web deberá ser fiel al prototipo.
 - La web deberá estar desplegada.
 
-## Recursos
+## Sobre el proyecto 🎉
+
+¡Estamos emocionados de presentar el resultado final del proyecto SoundWave! A través de este repositorio de GitHub, podrán acceder al código fuente y explorar cómo utilicé React con TypeScript para desarrollar una aplicación web impresionante. Además, hemos desplegado la web para que puedan verla en acción. 🚀
+
+He utilizado estilos implementados con la ayuda de Ant Design, para lograr una apariencia moderna y atractiva que refleje la carta gráfica proporcionada. 💅
+
+El corazón de nuestra aplicación es la calidad de sonido extraordinaria que ofrecemos, combinada con una amplia variedad de canciones para satisfacer todos los gustos musicales. He creado una experiencia de usuario fluida y envolvente, donde los usuarios pueden explorar álbumes, descubrir nuevas canciones y disfrutar de listas de reproducción personalizadas. 🎶
+
+Aproveché las ventajas de React-Router para la navegación entre páginas, asegurando una transición suave y sin problemas. Además, he implementado funcionalidades adicionales, como la integración con redes sociales y la posibilidad de compartir canciones favoritas en Twitter. 🎧
+
+Estoy orgullosa del resultado final y creo que esta landing page será una poderosa herramienta para acelerar el crecimiento de SoundWave. Los invito a visitar el enlace de despliegue y explorar la web por ustedes mismos. 🌟
+
+Gracias por su atención y espero que disfruten de nuestra presentación final en Canva. 😉
+
+## Recursos 🎨
 
 <details>
   <summary>Imágenes</summary>
@@ -39,10 +53,10 @@ SoundWave, se ha posicionado en el mercado como la competencia directa de Spotif
 
 
 
-## Entregables
+## Entregables 📦
 
-- **[Repositorio de GitHub.](https://github.com/factoriaf5-p7/soundwave-EvangeRodriguez.git)**
-- **[Enlace del despliegue.]()**
-- **[ Presentación Final ]()**
+- **[Repositorio de GitHub.](https://github.com/factoriaf5-p7/soundwave-EvangeRodriguez.git)**📁
+- **[Enlace del despliegue.]()**🔗
+- **[ Presentación Final ](https://www.canva.com/design/DAFocQkn3Vw/IDxSD2qbYOcFFaPzQrT8kw/edit?utm_content=DAFocQkn3Vw&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton)**🎥
 
  
