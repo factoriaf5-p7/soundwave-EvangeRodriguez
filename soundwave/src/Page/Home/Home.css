@@ -37,11 +37,43 @@
   justify-content: flex-start;
 }
 
+.circle-3 {
+  position: fixed;
+  bottom: -20%;
+  left: 70%;
+  width: 450px;
+  height: 450px;
+  background-color:#3457b21a  ;
+  border-radius: 50%;
+  z-index: -1;
+}
+.circle-4 {
+  position: fixed;
+  top:10%;
+  left: 20%;
+  width: 350px;
+  height: 350px;
+  background-color:#3457b21a   ;
+  border-radius: 50%;
+  z-index: -1;
+}
+.circle-5 {
+  position: fixed;
+  bottom: 6%;
+  left: 3%;
+  width: 350px;
+  height: 350px;
+  background-color:#bc3a801a  ;
+  border-radius: 50%;
+  z-index: -1;
+}
+
+
 @media (max-width: 768px) {
   .container-home {
-    margin-left: 200px;
-    margin-top: 200px;
-    align-items: center;
+    margin-left: 50px;
+    align-items: flex-start; 
+    text-align: left;
   }
 
   .girl {
@@ -49,17 +81,35 @@
   }
 
   .title {
-    font-size: 80px;
+    font-size: 50px;
     margin-bottom: 1px;
-    padding-right: 250px;
+    padding-right: 50px;
   }
 
   .subtitle {
-    font-size: 50px;
+    font-size: 25px;
     margin-bottom: 1px;
   }
 
   .button {
     padding: 50px 60px;
+  }
+  .circle-3 {
+    bottom: -11%;
+    left: 80%;
+    width: 200px;
+    height: 200px;
+  }
+  .circle-4 {
+    top:10%;
+    left: 32%;
+    width: 100px;
+    height: 100px;
+  }
+  .circle-5 {
+    bottom:3%;
+    left: 5%;
+    width: 100px;
+    height: 100px;
   }
 }

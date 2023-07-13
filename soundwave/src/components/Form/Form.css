@@ -21,7 +21,15 @@
 }
 
 .form-input {
+  background-color: #202027;
   width: 300px;
   color: #fff;
   font-family: 'Poppins', sans-serif;
+}
+
+@media screen and (max-width: 767px) {
+  .forms-style {
+    width: 350px;
+    padding:15px;
+  }
 }

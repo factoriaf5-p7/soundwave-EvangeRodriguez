@@ -8,6 +8,11 @@ export default function Home() {
   return (
     <div>
       <Navbar />
+          
+          <div className="circle circle-3"></div>
+          <div className="circle circle-4"></div>
+          <div className="circle circle-5"></div>
+      
       <div className="container-home">
         <div className="content-home">
           <img src={girl} className="girl" alt="Girl" />

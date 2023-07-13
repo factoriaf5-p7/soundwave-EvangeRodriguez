@@ -6,7 +6,7 @@ export const Forms = () => {
   return (
     <div className='forms-style'>
       <Form layout="vertical" autoComplete="off" className="form">
-        <Form.Item name="name" label="Name:" className="form-item">
+        <Form.Item name="name" label="Name:" className="form-item" >
           <Input className="form-input" />
         </Form.Item>
         <Form.Item name="email" label="Email:" className="form-item">

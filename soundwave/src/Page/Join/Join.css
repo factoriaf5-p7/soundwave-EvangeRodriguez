@@ -24,7 +24,28 @@
 }
 
 .container-join h1 span.fun {
-  color: fuchsia;
+  color: #D3007B;
+}
+.circle-1 {
+  position: fixed;
+  top: -20%;
+  left: 26%;
+  width: 350px;
+  height: 350px;
+  background-color: #3457b21a;
+  border-radius: 50%;
+  z-index: 1;
+}
+
+.circle-2 {
+  position: fixed;
+  bottom: -50px;
+  left: -50px;
+  width: 350px;
+  height: 350px;
+  background-color:#bc3a801a ;
+  border-radius: 50%;
+  z-index: -1;
 }
 
 @media screen and (max-width: 767px) {
@@ -34,6 +55,7 @@
     padding: 20px;
   }
 
+
   .content-join {
     margin-right: 0;
     margin-bottom: 20px;
@@ -42,4 +64,12 @@
   .content-forms {
     margin-left: 0;
   }
+
+  .circle-1 {
+    width: 120px;
+    height: 120px;
+    top: -10%;
+    left: 20%;
+    }
+  
 }

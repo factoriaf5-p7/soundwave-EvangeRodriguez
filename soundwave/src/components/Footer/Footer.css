@@ -21,7 +21,17 @@
     .redes {
       min-width: unset;
       padding: 0;
-      width: 100%;
+      width: 50%;
+      font-size: 10px;
+    }
+    .redes img {
+      width: 16px;
+      height: 16px;
+    }
+  
+    .redes img.facebook {
+      width: 20px; 
+      height: 20px;
     }
   }
   

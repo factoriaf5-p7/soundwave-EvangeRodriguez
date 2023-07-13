@@ -7,6 +7,9 @@ export default function Join() {
   return (
     <div>
       <Navbar />
+      <div className="circle circle-1"></div>
+      <div className="circle circle-2"></div>
+
       <div className="container-join">
         <div className="content-join">
           <h1>
