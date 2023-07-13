@@ -56,7 +56,7 @@ Gracias por su atención y espero que disfruten de nuestra presentación final e
 ## Entregables 📦
 
 - **[Repositorio de GitHub.](https://github.com/factoriaf5-p7/soundwave-EvangeRodriguez.git)**📁
-- **[Enlace del despliegue.]()**🔗
+- **[Enlace del despliegue.](https://phenomenal-faloodeh-6f4a13.netlify.app/)**🔗
 - **[ Presentación Final ](https://www.canva.com/design/DAFocQkn3Vw/i2zeJaBo9hba3EYa0-KkBA/view)**🎥
 
  
